@@ -40,5 +40,14 @@
 
 .item__texto {
     line-height: normal;
-    color: var(--cinza-escuro);
+    color: var(--branco);
+}
+
+@media screen and (min-width: 1024px){
+    .diferenciais{
+        background-color: var(--cinza-escuro);
+    }
+    .diferenciais__lista{
+        justify-content: space-around;
+    }
 }
